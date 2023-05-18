@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyTown", "LazyTown\LazyTown.csproj", "{D44F361D-D6E4-45C3-9181-A91A703FE60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44F361D-D6E4-45C3-9181-A91A703FE60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44F361D-D6E4-45C3-9181-A91A703FE60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44F361D-D6E4-45C3-9181-A91A703FE60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44F361D-D6E4-45C3-9181-A91A703FE60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E53B9CEC-46C6-4178-8D57-FE5424A5ECB6}
+	EndGlobalSection
+EndGlobal

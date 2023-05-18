@@ -1,0 +1,38 @@
+﻿* {
+    font-family: 'RocknRoll One';
+}
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.logo {
+    align-items: center;
+    vertical-align: baseline;
+    align-content: baseline;
+    height: 50px;
+}
+
+div.clock {
+    color: #ad4cf5;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 10%;
+}
+
+.rights {
+    font-family: OpenSans;
+    padding-left:20px;
+}

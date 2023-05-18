@@ -1,0 +1,70 @@
+﻿body {
+
+}
+
+@font-face {
+    font-family: 'RocknRollOne';
+    src: url('fonts/RocknRollOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LazyTown';
+    src: url('fonts/LazyTown.ttf') format('truetype');
+}
+
+h2.about {
+    color: #222222;
+    font-family: RocknRollOne;
+    text-align: center;
+    font-size: 21px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+section.title {
+    width:auto;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background: url(Media/welcome.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+h1.title {
+    text-align: center;
+    font-family: LazyTown;
+    font-size: 100px;
+    color: #ffd800;
+    -webkit-text-stroke: 4px #ffffff77;
+    background: -webkit-linear-gradient(#f6dfb5, #f9a81c, #ea6200,#ea6200, #f9a81c, #f6dfb5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .04em;
+}
+
+a {
+    color: #c44dff;
+}
+
+a:focus,
+a:hover {
+    color: #111111;
+}

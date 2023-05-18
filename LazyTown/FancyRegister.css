@@ -1,0 +1,53 @@
+﻿@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+body {
+    background: #f6e3ff;
+}
+
+h1, h3 {
+    font-family: Poppins;
+    color: #8b16d1;
+}
+
+input {
+    font-family: Poppins;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border: 0px;
+    border-color: #8b16d1;
+    border-radius: 7px;
+    color: #8b16d1;
+}
+
+td.submit {
+    text-align: center;
+}
+
+input.submit {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #dfa4ff;
+    color: #8b16d1;
+    border: none;
+    border-color: #8b16d1;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+input.submit:hover {
+    background: #8b16d1;
+    color: #dfa4ff;
+}
+
+table {
+    color: #8b16d1;
+}
+
+table.result {
+    text-align: center;
+}
